@@ -2,3 +2,11 @@
   display: block;
   max-width: 100%;
 }
+.container{
+  background-color: aqua;
+  
+}
+.row {
+  align-items: center;
+}
+

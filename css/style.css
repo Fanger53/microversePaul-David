@@ -1,12 +1,16 @@
-#image{
+#image {
   display: block;
   max-width: 100%;
 }
-.container{
+.container {
   background-color: aqua;
-  
 }
 .row {
   align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: orange;
+  }
+}
